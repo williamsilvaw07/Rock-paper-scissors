@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>to-do app </title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+</head>
+
+<body>
+    <div class="game_over">
+        <div class="play_button">
+            <h1>rock , paper ,scissors</h1>
+            <button id="Play" type="button" onclick="fadeOut()">Play</button>
+            <div class="input">
+
+<h5>Please add name to play</h5>
+                <input type="text" id="myInput" value="" onkeyup="checkUserName(this)">
+                <button type="button" id="myBtn" disabled>ADD NAME</button>
+            </div>
+        </div>
+        <div class="container fadeout">
+
+
+
+            <h2> <span id="user">User</span><span id="computer">computer</span></h2>
+            <p id="score"><span id="user_score">0</span><span>:</span><span id="computer_score">0</span></p>
+
+            <h3 id="who_wins"></h3>
+
+
+            <img id="image_main" src=" picture/Paper.png" alt="paper">
+            <img id="image_second" src="picture/rock_left_side.png" alt="paper">
+
+
+            <img id="paper" class="img_class" src="picture/paper.png" alt="paper">
+
+            <img id="rock" class="img_class" src="picture/rock_left_side.png" alt="rock">
+
+            <img id="scissors" class="img_class" src="picture/Scissors.png" alt="scissors">
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="who_won_game">
+
+        <h4 id="final_results"></h4>
+    </div>
+    <div class="text">
+        <div class="play_button ">
+
+
+            <button id="gameOver" type="button">Play Agin</button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js.js"></script>
+</body></html>
